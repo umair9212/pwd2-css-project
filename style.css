@@ -1,7 +1,7 @@
 
 body{
     margin: 0%;
-    padding: 0%;
+    padding: 0%; 
 }
 /* main div code */
 .container{
@@ -86,4 +86,61 @@ body{
     font-size: 70px;
     text-align: center;
     padding-top: 180px;
+}
+
+/* image content end */
+/* about start */
+
+.about{
+    height: 600px;
+    width: 90%;
+    margin: 0% auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.profile-content{
+    width: 50%;
+    height: 600px;
+}
+
+.about-me{
+    width: 50%;
+    height: 600px;
+    float: right;
+    margin-top: -600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.about-me > p{
+    font-size: 23px;
+}
+
+.image-profile{
+    width: 100%;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.my-image{
+    background-image: url('./img/testimonial-2.jpg');
+    width:24%;
+	height:150px;
+    float: left;
+}
+.my-info{
+    width: 76%;
+    height: 150px;
+    float: right;
+}
+.my-info > p{
+    padding: 10px;
+    font-size: 24px;
+}
+.skill-content{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    font-size: 20px;
 }
