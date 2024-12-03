@@ -20,6 +20,7 @@ body{
     background-color: black;
     margin: 0% ;
     padding: 0%;
+    position: fixed;
 }
 .nav-child{
     margin: 0% auto;
@@ -75,7 +76,7 @@ body{
 }
 .heading-content-image{
     width: 100%;
-    height: 500px;
+    height: 650px;
     background-image: url('./img/post-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +86,7 @@ body{
     margin: 0%;
     font-size: 70px;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 290px;
 }
 
 /* image content end */
@@ -143,4 +144,66 @@ body{
     height: 400px;
     padding: 30px;
     font-size: 20px;
+}
+
+/* about end */
+/* services start */
+.services{
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.services > h1{
+    margin: 0%;
+    font-size: 50px;
+}
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 15px;
+}
+.services-box{
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    /* display: inline-block; */
+}
+.icon-css{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 100%;
+    border: 10px solid blue;
+}
+.icon-css:hover{
+    border-color: gray;
+    background-color: blue;
+    color: white;
+}
+
+.work-experience{
+    width: 100%;
+    height: 300px;
+    background-color: #0099FF;
+}
+.work-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    width: 80%;
+    margin: 0% auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+.work-box{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+
 }
