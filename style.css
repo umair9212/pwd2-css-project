@@ -2,7 +2,7 @@
 body{
     margin: 0%;
     padding: 0%; 
-}
+} 
 /* main div code */
 .container{
     margin: 0% auto;
@@ -206,4 +206,56 @@ body{
     width: 100%;
     height: 200px;
 
+}
+
+/* work end */
+
+/* portfolio start */
+
+.portfolio{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.portfolio > h1{
+    font-size: 40px;
+    margin: 0% auto;
+}
+.portfolio > p{
+    font-size: 20px;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 80%;
+    margin: 0% auto;
+    box-sizing: border-box;
+    grid-gap: 15px;
+}
+.portfolio-box{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+}
+.portfolio-image{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    overflow: hidden;
+}
+.portfolio-image > img{
+    transform:scale(1);
+    transition: ease-in-out .5s;
+}
+
+.portfolio-image > img:hover{
+    transform: scale(1.5);
+}
+.portfolio-text{
+    margin-top: 20px;
 }
