@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../img/work-2.jpg" alt="" srcset="" width="100px" height="50px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-underline">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div id="carouselExample" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="../img/post-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/post-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="../img/post-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div class="row mt-5">
+            <p class="d-inline-flex gap-1">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Link with href
+                </a>
+                <button class="btn btn-outline-light text-dark border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Read More
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed
+                    when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dicta doloremque totam, iusto harum vitae, animi mollitia officia quibusdam commodi illo pariatur, alias fugiat? Saepe impedit qui eum dolorum ad voluptatibus sequi repellat delectus in molestiae culpa nisi quis laborum aperiam, reiciendis corrupti vitae enim necessitatibus aliquid molestias doloribus? Aspernatur corrupti ea ab error eveniet eaque, omnis nemo quidem saepe labore modi accusamus culpa ullam doloremque? Nulla saepe velit ullam ad temporibus at inventore ipsum esse atque omnis voluptatibus voluptatum rem eius ipsa doloribus hic, ducimus aliquam sed similique cumque in, explicabo, necessitatibus architecto labore! Dignissimos enim ducimus rem perferendis ratione praesentium voluptates sunt optio esse reprehenderit? Eligendi veniam est eaque cumque reiciendis laudantium consectetur itaque dolores ipsa. Doloribus ipsa provident magni nihil excepturi! Veritatis at nobis, dicta accusantium enim optio in facilis sed repellat cum eveniet quisquam, natus non commodi labore iusto, asperiores voluptas unde tenetur impedit et a. Illo unde quisquam obcaecati ullam quibusdam a autem, aut eius reprehenderit accusamus ad labore id est excepturi maxime commodi possimus voluptates. Hic, iusto ipsum? Optio asperiores debitis quam ipsa magnam nihil? Ex doloribus, nesciunt laborum sint mollitia vitae veritatis soluta consectetur qui voluptate ullam temporibus architecto, deserunt minus quae! Iste non, minima blanditiis aliquam, soluta voluptatum ipsum expedita eveniet incidunt quasi, perferendis voluptate delectus corporis ratione aliquid amet beatae sit! Enim sit cupiditate, quisquam dolores ad quasi sint necessitatibus architecto, officia blanditiis suscipit, accusamus quo ullam corporis voluptas vitae velit recusandae deleniti odit placeat accusantium. Itaque officiis blanditiis placeat iusto? Corporis culpa aliquid perferendis! Aliquid, eius. Soluta mollitia officiis dicta non adipisci et unde impedit repellendus! Libero dolore, explicabo ipsa optio, officia placeat eligendi dolor excepturi cum hic incidunt ipsam. Magni amet, odit dignissimos, iure rem placeat unde fugiat mollitia dolores accusamus totam beatae laboriosam ad dolore repellat adipisci harum provident error. Nostrum nemo non velit distinctio commodi mollitia, beatae libero obcaecati sunt vitae autem rerum magnam eveniet! Aspernatur, animi sint. Nisi libero deleniti eius, quisquam eum explicabo architecto delectus ab deserunt expedita illo mollitia magni ex, accusamus repellat dolores? Cumque, earum consequuntur quos libero odio asperiores saepe iure nulla voluptatum ut neque aut rerum dignissimos doloremque nesciunt minima error ipsam maiores optio? Aperiam, numquam dignissimos. A eligendi temporibus illum, magni repellendus molestias modi tempore. Commodi neque iste nostrum ipsum suscipit, ab laudantium quaerat vel enim repellat dignissimos optio cupiditate reprehenderit, eligendi in quas accusamus natus architecto, facilis debitis sint? Quas molestiae consequatur placeat suscipit ipsam voluptas. Maiores repellendus eos fuga sequi ullam at eaque sed et delectus aperiam maxime est atque asperiores ab praesentium blanditiis, fugiat dolorem distinctio veniam animi. Dolorem optio quo nobis vero corrupti exercitationem perspiciatis aspernatur odit ut commodi? Nemo, corporis corrupti. Accusantium suscipit quo fuga voluptatum molestias recusandae commodi nemo tenetur natus, expedita quas? Omnis neque, sunt qui quo, nisi dolores dolorem eligendi harum tenetur eveniet dolore esse nemo a fugit quae, cumque sit? Rerum asperiores repudiandae facilis magnam suscipit deserunt aut quasi molestiae, labore sunt cum harum reiciendis natus numquam impedit explicabo laudantium eveniet. Pariatur cupiditate dicta corrupti, amet est voluptatum doloribus. At eum impedit dignissimos corrupti aut atque molestiae temporibus nobis, ex, adipisci reprehenderit officia ipsam ut! Mollitia consectetur laudantium et! Dignissimos quo aperiam tempore quas ullam repellendus inventore cupiditate sapiente voluptates nesciunt. Repellendus sunt dolores dolorem laudantium distinctio est, labore doloremque, non ipsa perspiciatis, ut incidunt deserunt! Aut temporibus molestiae velit magni qui esse aliquam culpa, possimus error reiciendis consectetur fugit voluptas atque a numquam optio eos aliquid veritatis dolor quas ipsam fuga. Enim pariatur minus quas nulla odio esse nihil quos laborum placeat, voluptatem ratione eveniet. Officiis debitis, illo voluptas impedit porro illum, libero repudiandae ex similique sequi quas neque? Nemo ut veniam quisquam necessitatibus esse nisi, et laborum asperiores, accusantium dolorem maxime totam dolore facere voluptates commodi qui consequuntur sed assumenda quaerat magni dolores hic dolorum. Excepturi minima aspernatur a officiis hic repellendus provident? Praesentium corrupti obcaecati quos consectetur. Dolores esse assumenda magnam, debitis itaque doloribus magni maxime laboriosam velit? Saepe repellendus culpa omnis ab tempora suscipit consequatur, totam velit assumenda consequuntur, voluptates error eius corporis deleniti commodi voluptatem, doloribus sequi ut accusantium quod reprehenderit maiores corrupti? Natus quibusdam ipsum ut a, totam eaque praesentium. Dolores, consequatur omnis. Illo aliquam consequatur totam pariatur iusto ipsum optio quo, recusandae ipsam dolorem atque illum minima earum mollitia! Adipisci temporibus voluptates quibusdam eaque fugiat dolor mollitia modi vero ipsam accusamus, eius quae repellendus culpa. Repudiandae perspiciatis consequatur numquam, earum quas deleniti consectetur ratione error optio quo. Doloremque iste dolorum numquam, nihil beatae fuga rerum nesciunt officia explicabo architecto unde praesentium distinctio, dignissimos natus placeat ullam eaque a magni delectus adipisci debitis blanditiis ut. Ad mollitia, quo assumenda eum laboriosam nisi, ducimus eveniet nesciunt ut, harum repellendus aut excepturi soluta nemo id quae impedit nulla earum optio deleniti accusantium! Necessitatibus a eaque corporis voluptatibus, ea sunt aliquam dolores architecto illum quos magnam enim aperiam asperiores laborum culpa vero. Quis accusamus doloribus esse aspernatur, eius provident necessitatibus debitis odio quo iste perferendis sit minus voluptas. Non libero vero architecto necessitatibus recusandae tempora perferendis a veritatis. Quis iure modi eum reiciendis odit accusamus aut molestias minima dolore eveniet impedit pariatur eligendi minus accusantium praesentium nesciunt saepe, doloribus velit reprehenderit error iusto nemo nisi asperiores? Eos ipsam voluptate quo! Reprehenderit mollitia temporibus autem cupiditate adipisci sunt rerum facere. Quasi voluptates eius velit ab quibusdam consequatur, adipisci porro quod ipsam alias repellendus voluptatem facere dolorum beatae ipsa nemo, vitae esse eaque sunt odio. Nihil earum illum nostrum autem, rem neque commodi dignissimos ex quibusdam nobis officia esse temporibus sunt sed nisi sequi omnis similique! Ipsam, laudantium! Repellat provident mollitia id placeat explicabo odit animi quis illo porro nisi, pariatur, quaerat officiis dolores modi quam. Cum doloribus tenetur voluptas ab harum esse obcaecati at nesciunt similique, voluptatum iure? Eum iusto laborum animi beatae veritatis labore dolore molestias architecto rerum! Tempora deleniti quia molestias doloribus debitis quo error quaerat, soluta porro enim sit culpa totam sapiente quasi neque, officiis provident pariatur quas hic? Veritatis ipsum porro distinctio. Fuga, obcaecati iure.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
