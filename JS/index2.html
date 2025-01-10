@@ -1,0 +1,70 @@
+<!-- If statement
+Logical operator 
+Alert box
+Alert confirms
+Alert prompt box
+For loop
+each
+map 
+filter
+
+Function In js
+Local and g variable
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>this is 2nd class</h1>
+
+
+    <script>
+        //   let confirm1 =   confirm('Are You Sure To Calculate Your Marks');
+        //   if(confirm1){
+        //     let a = prompt('Enter Your Marks');
+
+        //     // a > 33 ? console.log("You Have Passed") : console.log("You Have Failed");
+
+        //     if (a > 90 && a <= 100) {
+        //         alert("Your Grade is A+");
+        //         // console.log('Your Grade is A+');
+        //     } else if (a > 80 && a <= 90) {
+        //         alert("Your Gade is A");
+        //         // console.log('Your Grade is A');
+        //     } else if (a > 70 && a < 80) {
+        //         alert("Your Grade is A-");
+        //         // console.log('Your Grade is A-');
+        //     } else if (a > 60 && a <= 70) {
+        //         alert("Your Grade is B");
+        //         // console.log('Your Grade is B');
+        //     } else {
+        //         alert("Your Grade is F");
+        //         // console.log("You Have Failed");
+        //     }
+        //   }
+
+
+        // if (a > 33) {
+        //     console.log("You Have Passed");
+        // }else{
+        //     console.log("You Have Failed");
+        // }
+
+        let value = prompt('Enter Any Number');
+        let table = '<table>'
+        for (let i = 1; i <= 10; i++) {
+            table += "<tr><td>"+value+"</td><td>X</td><td>"+i+"</td><td>=</td><td>"+i*value +"</td></tr>";
+
+        }
+        table += "</table>";
+        document.write(table);
+    </script>
+</body>
+
+</html>
