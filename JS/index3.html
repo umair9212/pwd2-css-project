@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>lecture 3</h1>
+
+    <button onclick="showAlert()" type="button">Click Me</button>
+    <button ondblclick="showAlert()" type="button">DBl Click Me</button>
+    <button oncontextmenu="showAlert()" type="button">Context Menu Click Me</button>
+    <button onmouseenter="showAlert()" type="button">on mouse ENter Click Me</button>
+    <button onmouseleave="showAlert()" type="button">on mouse Leave Click Me</button>
+
+
+    <div id="box" style="display: none;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate et sed minus dolor aspernatur voluptas ea libero iste quam perspiciatis aliquam eveniet eos eius tenetur, delectus impedit magni placeat?s
+    </div>
+    <script>
+        function showAlert(){
+            document.getElementById("box").style.display= "block"; 
+        }
+
+        // const valuevar = 100;
+        // function calculation(value1, action, value2) {
+        //     const valuevar = 100; // local variable
+        //     if (action == '+') {
+        //         return value1 + value2;
+        //     } else if (action == '-') {
+        //         return value1 - value2;
+        //     } else if (action == '/') {
+        //         return value1 / value2;
+        //     } else if (action == "*") {
+        //         return value1 * value2;
+        //     } else {
+        //         alert('please enter valid Action');
+        //     }
+        // }
+
+        
+        // function sub(var1,var2){
+        //     return var1-var2;
+        // }
+        // console.log(calculation(40, '+', 50));
+        // console.log(calculation(40, '-', 50));
+        // console.log(calculation(40, '/', 50));
+        // console.log(calculation(40, '*', 50));
+        // console.log(calculation(40, '&&', 50));
+
+
+    </script>
+</body>
+
+</html>
